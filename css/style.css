@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing:inherit;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+
+  body {
+    background:#f4f4f4 ;
+    color: rgb(160, 155, 155);
+    font-family: 'Roboto', sans-serif;
+  }
+  .naddiv {
+    background-image: linear-gradient(90deg, rgb(86, 100, 185) , rgb(44, 143, 163));
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .form-box{
+    background: #fff;
+    margin:  auto;
+    max-width: 400px;
+    box-shadow: 0 3px 6px 0px rgba(0,0,0,0.16), 0 3px 6px 0px rgba(0,0,0,0.23);
+    height:650px ;
+  }
+  form#login-form {
+    overflow: hidden;
+    position: relative;
+    padding: 40px;
+  }
+  .head {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    
+    padding: 40px 0;
+    display: flex;
+  
+    background: #6498fe;
+  }
+  p{
+    margin-top: 50px;
+  }
+  
+  
+  .form-control {
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 14px;
+  }
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+ 
+  .active .label-control::after{
+     -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+  }
+  .active .label-control .label-text {
+      opacity: 1;
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      transform: scale(0.9);
+      color: #03A9F4 !important;
+  }
+  
+  .input-field label:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #B9C1CA;
+    transition: transform 0.3s;
+
+  }
+  
+  
+  input.btn[type="submit"] {
+    background: #6498fe;
+    border:none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 5px 0;
+    outline: medium none;
+    overflow: hidden;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.15s ease-in-out 0s;
+    width: 100%;
+    box-shadow: 0 1px 2px 0px rgba(0,0,0,0.16), 0 1px 2px 0px rgba(0,0,0,0.23);
+  }
+  input.btn[type="submit"]:hover {
+    background: #4b81eb;
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.16), 0 2px 4px 0px rgba(0,0,0,0.23);
+  }
+  .text-p{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .text-p a{
+    color: #175690;
+  }
+  @media (max-width: 480px){
+    form#login-form {
+      width: 90%;
+      margin: 30px auto;
+    }
+  }
+  
+  h4,h6 {
+    margin-left: 10px;
+    /* display: inline-block */
+  } 
+  button {
+    display: block;
+    margin-left: 100px;
+    background-color: #6498fe;
+    border-radius: 10px;
+    margin-top: 4px;
+    color: white;
+    padding: 10px;
+ 
+  }
+  .radio {
+   margin-top: 20px;
+  }
+  .animation {
+    display: inline-block;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .3);
+    color: #dce4eb;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    position: relative;
+    margin-left: 5px;
+  
+
+}
+/* .head.animation {
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  color: #fff;
+  box-shadow: none;
+  border: 3px solid #39a4f5;
+}
+.head.animation > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 9;
+  right: 0;
+  background: transparent;
+  border-radius: 50%;
+  transition: .5s;
+} */
+.animation1 {
+  display: inline-block;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .3);
+  /* color: #dce4eb; */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 28px;
+  position: relative;
+  margin-left: -35px;
+
+}
